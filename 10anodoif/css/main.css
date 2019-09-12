@@ -1,0 +1,190 @@
+* {
+color: #333333;
+margin: 0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+.menu-resp {
+display: none;
+}
+
+.topo-total {
+ box-shadow: 0px 1px 10px 1px #0f753a;
+position: relative;
+z-index: 999;
+}
+.topo {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.logo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 20px 0px;
+}
+
+.menu {
+display: flex;
+flex-direction: column;
+ justify-content: center;
+}
+
+.menu li {
+ display: inline-block;
+ list-style: none;
+margin: 0px 10px;
+}
+
+.menu li a {
+display: block;
+padding: 20px 10px 40px;
+font: 18px "calibri";color: #999999;
+}
+
+.menu ul li:hover {
+border-bottom: 3px solid #0f753a;
+}
+
+.menu ul li a:hover {
+color: #0f753a;
+    
+}
+.menu li .ativo {
+color: #0f753a;
+box-shadow: 0px 4px 0px 0px #58bba4 inset;
+position: relative;
+}
+
+.menu li .ativo::before {
+font-family: "fontAwesome";
+position: absolute;
+bottom: 9px;
+left: 50%;
+transform: translateX(-50%);
+color: #0f753a;
+font-size: 27px;
+}
+header {
+text-align: center;
+font-size: 35px;
+ background: white;
+ margin: 20px 0;
+font-weight: bold;
+font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+.text{
+text-align: center;
+font-size: 25px;
+font-family: 'Darker Grotesque', sans-serif;
+}
+.convite{
+ text-align: center;
+}
+
+.noticias{
+width: 600px;
+height: 400px;
+margin: 100px auto;
+background-color: #fff;
+position: relative;
+}
+.noticias ul{
+ list-style: none;
+}
+.noticias ul li{
+float: left;
+}
+
+.quadrado{
+display: block;
+width: 100px;
+background-color: #363b48;
+padding: 25px;
+font-size: 20px;
+color:#fff;
+cursor: pointer;
+text-align: center;
+}
+
+.noticias .tabela{ 
+display:none;
+position: absolute;
+}
+
+.noticias .tabela:checked ~ label { 
+background-color: #4ee44e;
+color:#fff;}
+
+.tabel{
+border-top: solid 5px #90ee90;
+background-color: #fff;
+display: none;
+position: absolute;
+height: 320px;
+width: 600px;
+left: 0;    
+}
+
+.tabela:checked ~ .tabel{
+display: block;
+}
+.tabel h2{
+padding: 10px;
+color: #87d3b7;
+}
+.tab-content article{
+padding: 10px;
+color: #555;
+}
+
+.link a {
+font-weight: bold;
+background: #f7f8f1;
+padding: 9px;
+color: rgb(16, 17, 17);
+border: 1px solid #5F9EA0;
+float: center;
+position:absolute;
+margin-right: 40px;
+    
+  }	
+#footer {
+background-color: #508d4f;
+text-align: center;
+}
+#footer .inner {
+padding: 6em 0 4em 0;
+margin: 0 auto;
+width: 75%;
+}
+#footer ul.icons li {
+padding-right: 1.1em;
+display: inline-block;
+}
+#footer ul.icons li:last-child {
+padding-right: 0;
+}
+
+#footer ul.icons li {
+font-size: 0.9em;
+}
+
+
+   
+
+
+
+
+
+    
+

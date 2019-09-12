@@ -1,0 +1,94 @@
+body{
+    
+        background: url(../img/inscricaoo.jpg) no-repeat center top fixed;
+    
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.titulo h1{
+		line-height: 78px;
+		margin: 0px;
+		padding: 0px;
+		font-size: 26px;
+    }
+
+.cadastro{
+	text-align: left;
+	width: 300px;
+}
+
+label{
+	margin-bottom: 0px;
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+    }
+    
+    body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333;
+    background-color:#fff
+    }
+    
+    .img-thumbnail{
+    display:inline-block;
+    max-width:100%;
+    height:auto;
+    padding:4px;
+    line-height:1.42857143;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-radius:4px;
+    -webkit-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;transition:all .2s ease-in-out
+    }
+    
+    .cad{
+    display:block;width:100%;
+    height:34px;
+    padding:6px 12px
+    ;font-size:14px;
+    line-height:1.42857143;
+    color:#555;
+    background-color:#fff;
+    background-image:none;
+    border:1px solid #ccc;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+    }
+        
+    @media (min-width:768px){
+    .a{display:inline-block;
+    padding:6px 12px;margin-bottom:0;
+    font-size:14px;
+    font-weight:400;
+    line-height:1.42857143;
+    user-select:none;
+    background-image:none;
+    border:1px solid transparent;
+    border-radius:4px}
+                   
+    
+    .cadastrocss{
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#2e6da4
+    }
+    .cadastrocss:focus{
+    color:#fff;
+    background-color:#286090;
+    border-color:#122b40
+    }[type=submit].ifsis{width:100%}
+}
+    
